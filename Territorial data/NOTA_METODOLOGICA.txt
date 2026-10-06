@@ -1,0 +1,17 @@
+Il contenuto del file zip è il seguente:
+- BDTRE_DATABASE_GEOTOPOGRAFICO_2025-LIMI_COMUNI_10_GAIMSDWL-[codice_istat]-EPSG32632-GPKG.gpkg
+	geopackage dei livelli di BDTRE secondo la struttura NC - National Core, per ogni layer è salvato uno stile di default che verrà applicato al caricamento in un progetto QGIS
+- BDTRE_DATABASE_GEOTOPOGRAFICO_2025-LIMI_COMUNI_10_GAIMSDWL-[codice_istat]-EPSG32632-GPKG.qgs
+	progetto QGIS (v. 3.34) con layer del geopackage caricati, tematizzati e strutturati secondo le seguenti tematiche:
+		- Ambiti amministrativi
+		- Informazioni geodetiche
+		- Aree di pertinenza
+		- Toponimi
+		- Reti di sottoservizi
+		- Vegetazione
+		- Orografia
+		- Idrografia
+		- Immobili e antropizzazioni
+		- Viabilita', mobilita' e trasporti
+		
+NB: la struttura nel geopackage è completa di tutti i livelli della "BDTRE struttura NC" ma, per alcune classi, potrebbero non esistere elementi pertanto i layer risulteranno vuoti, cioè privi di record.
